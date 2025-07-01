@@ -2,7 +2,7 @@ import ClientSection from "../components/clientSection"
 import ContactSection from "../components/contactSection"
 import ProjectSection from "../components/projecSection"
 import NewsletterSection from "../components/NewsletterList";
-import './landingPage.css';
+// import './landingPage.css';?
 
 function LandingPage(){
     return(

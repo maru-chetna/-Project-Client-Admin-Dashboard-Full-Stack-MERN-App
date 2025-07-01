@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import './projectSection.css';
+
 
 function ProjectSection() {
   const [projects, setProjects] = useState([]);
@@ -19,7 +21,7 @@ function ProjectSection() {
 
   return (
     <section>
-      <h2>Our Projects</h2>
+      <h2>Our Projects</h2> 
       <div className="project-list">
         {projects.map((project) => (
           <div key={project._id} className="project-card">

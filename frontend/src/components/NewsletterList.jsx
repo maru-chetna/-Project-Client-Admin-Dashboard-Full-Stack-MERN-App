@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+import "./NewsLetter.css";
+
 function NewsletterSection() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -45,4 +47,4 @@ function NewsletterSection() {
   );
 }
 
-export default NewsletterSection;
+export default NewsletterSection; 

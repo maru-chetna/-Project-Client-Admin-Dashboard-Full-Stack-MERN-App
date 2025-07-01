@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "./ContactList.css";
 
 function ContactList() {
   const [contacts, setContacts] = useState([]);

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "../css/ClientSection.css"; 
+import "./ClientSection.css"; 
 
 function ClientSection() {
   const [clients, setClients] = useState([]);
